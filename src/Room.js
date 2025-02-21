@@ -19,7 +19,7 @@ function Room() {
                 sharedLinks: [
                     {
                         name: 'copy link',
-                        url: `http://localhost:3000/room/${roomID}`
+                        url: `https://cloudconnect-lwdi.onrender.com/room/${roomID}`
                     },
 
                 ],
