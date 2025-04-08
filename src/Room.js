@@ -9,8 +9,8 @@ function Room() {
 
     useEffect(() => {
         const myMeeting = async (element) => {
-            const appID = 1526987355;
-            const serverSecret = "9b5192433157e75381bdae4969075d08";
+            const appID = 972432737;
+            const serverSecret = "5153599419585d04a3efd93f0eae5c3a";
             const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Priyanshu");
 
             const zp = ZegoUIKitPrebuilt.create(kitToken);
