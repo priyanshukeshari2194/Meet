@@ -9,9 +9,9 @@ function Room() {
 
     useEffect(() => {
         const myMeeting = async (element) => {
-            const appID = 972432737;
-            const serverSecret = "5153599419585d04a3efd93f0eae5c3a";
-            const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Priyanshu");
+            const appID = 634323875;
+            const serverSecret = "9ece950cd71483ede4ff750aaddff7d9";
+            const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Priyanshu keshari");
 
             const zp = ZegoUIKitPrebuilt.create(kitToken);
             zp.joinRoom({
