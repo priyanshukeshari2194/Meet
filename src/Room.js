@@ -24,7 +24,7 @@ function Room() {
 
                 ],
                 scenario: {
-                    mode: ZegoUIKitPrebuilt.OneONoneCall, // For 1-on-1 calls
+                    mode: ZegoUIKitPrebuilt.OneONoneCall, // For 1-on-1 call
                 },
             });
         };
